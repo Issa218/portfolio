@@ -5,6 +5,7 @@
     --detail-color3:#FBA4BE;
     --detail-color4:#FFEBED;
     --detail-color5:#27153D;
+    --detail-color6:#3E828E;
     --text:#002450;
 }
 
@@ -20,9 +21,7 @@
   overflow-x: hidden;
   background-color: var(--background-color);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  /* border: 3px solid #f1f1f1;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px; */
+
 }
 
 
@@ -30,6 +29,8 @@ body {
   background-color: var(--background-color);
   cursor: url("../imgs/cursor.png"), auto;
 }
+
+/* Claude + W3schools+ MDN webdocs */
 
 .cursor{
   width: 32px;
@@ -39,6 +40,7 @@ body {
   transition: width 0.2s, height 0.2s, background-color 0.2s;
   z-index: 9999;
 }
+
 
 @font-face {
   font-family: "Bing";
@@ -55,29 +57,15 @@ body {
 }
 
 @font-face {
-  font-family: "Sabrina";
-  src: url('../fonts/SABRINA_.TTF') format('truetype');
+  font-family: "Anallop";
+  src: url('../fonts/Anallop.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
        
 
-@font-face {
-  font-family: "Stars";
-  src: url('../fonts/Stars-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-h1{
-  font-family: "Bing";
-  font-weight: 400;
-  font-style: normal;
-  color: var(--text);
-}
 
 nav{
-  background-color:var(--background-color);
   border-bottom: solid 3px var(--detail-color5);
   top: 0;
   z-index: 100;
@@ -90,6 +78,7 @@ nav ul{
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  margin:10px;
   gap: 10px;
 }
 
@@ -104,8 +93,6 @@ nav ul li a{
   font-style: normal;
   text-decoration: none;
   font-optical-sizing: auto;
-  font-variation-settings: "slnt" 0;
-
 }
  
 nav li a:hover{
@@ -113,43 +100,8 @@ nav li a:hover{
 }
 
 
-#development{
-  background-image: url();
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;      
-  background-position: center;
-  width: 100%;
-  height: 450px; 
-  padding-bottom:100px;
-}
-
-
-/* #{
-
-background-image: url(../img/sides680px.webp);
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;      
-  background-position: center;
-  width: 100%;
-  height: 450px; 
-  padding-bottom:100px;
-}
-
-#{
-background-image: url(../img/dessert680px.webp);
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;      
-  background-position: center;
-  width: 100%;
-  height: 450px; 
-  padding-bottom:100px;
-} */
-
 #title{
-  background-image: url(../img/projhero680px.webp);
+  background-image: url(../imgs/banner.png);
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;      
@@ -174,15 +126,21 @@ background-image: url(../img/dessert680px.webp);
 
 #sub-banner{
   background-color:var(--background-color);
-  color: var(--detail-color1);
   border-top: solid 2px var(--detail-color1);
-  padding-top:50px;
-  text-align: center;
   top: 50%;
   left: 50%;
   width: 100%;
-  height:250px;
+  height: 550px;
   border-bottom: solid 2px var(--detail-color1);
+  padding: 30px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "title"
+    "photo"
+    "bio";
+  gap: 10px;
+  text-align: center;
 }
 
 #sub-banner h2{
@@ -192,8 +150,79 @@ background-image: url(../img/dessert680px.webp);
   font-style: normal;
    font-variation-settings:
     "slnt" 1;
+  grid-area: title;
+  font-size: 1.75rem;
   
 }
+
+#sub-banner .headshot{
+  width: 200px;
+  height: 300px;
+  grid-area: photo;
+  width: 100%;
+  max-width: 300px;
+  height: 450px;
+  object-fit: cover;      /* crops instead of squishing */
+  border-radius: 20px;    /* overrides the global 50% oval */
+  justify-self: center;
+  margin: 0;   
+}
+
+#sub-banner p{
+  grid-area: bio;
+  margin:15px;
+  font-family: "Midnight";
+}
+
+h1{
+  font-family: "Bing";
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+  padding: 10px;
+  margin: 10px;
+}
+
+h2{
+  color:var(--detail-color3);
+   font-family:"Bing";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 1;
+    text-decoration: underline;
+}
+
+h3{
+  font-family: "Bing";
+  font-weight: 400;
+  font-style: normal;
+  color:var(--detail-color1);
+  margin: 0;
+}
+
+h4{
+  font-family: "Bing";
+  font-weight: 400;
+  font-style: normal;
+  color:var(--detail-color1);
+}
+
+p{
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:var(--detail-color1);
+  font-size: 1.5rem;
+  
+}
+
+a{
+  text-decoration: none;
+  cursor: url("../imgs/cursor.png"), pointer; 
+}
+
 
 img{
   justify-items: center;
@@ -206,21 +235,16 @@ img.github{
  width:150px;
 }
 
-
-p, h3{
-  font-family: "Sabrina";
-  font-weight: 400;
-  font-style: normal;
-  color:var(--detail-color1);
-  margin: 0;
+#showcases{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding:20px;
 }
 
-#showcases {
-  padding:10px;
-  text-align:center;
-  display: grid;
-  grid-template-columns: 1fr;  
-  gap: 20px;
+#showcases h2, p{
+  text-align: center;
+  margin: 0;
 }
 
 .tools {
@@ -232,15 +256,30 @@ p, h3{
   
 }
 
-.tools:hover{
+/* .tools:hover{
 background-color: rgba(255,255,255,0.03);
-}
+} */
+
 
 h1.other{
   color:var(--detail-color1);
   text-shadow: 2px 2px var(--detail-color2);
    
 }
+
+
+#development{
+  background-image: url();
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;      
+  background-position: center;
+  width: 100%;
+  height: 450px; 
+  padding-bottom:100px;
+}
+
+
 
 
 /* #dev-page{
@@ -293,38 +332,14 @@ h1.other{
     padding: .25em 0;
 } */
 
-h2{
-  color:var(--detail-color3);
-   font-family: "Midnight";
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 1;
-    text-decoration: underline;
-}
-
-h3{
-  font-family: "Stars";
-  font-weight: 400;
-  font-style: normal;
-  color:var(--detail-color3);
-
-}
-
-a{
-  text-decoration: none;
-  cursor: url("../imgs/cursor.png"), pointer; 
-}
 
 footer{
-
   color:var(--detail-color1);
   text-align: center;
 }
 
 footer h6{
-  font-family: "sabrina";
+  font-family: "Bing";
   font-weight: 400;
   font-style: normal;
 }
@@ -339,8 +354,149 @@ footer h6 a:hover{
 }
 
 
+/*------------------------------------------------------ SCHEMA RESUME ----------------------------------------------------------------------------------*/
+/* ===================== RESUME ===================== */
+#resume{
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+   text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  background-color: var(--background-color);
+  border-top: solid 2px var(--detail-color1);
+  border-bottom: solid 2px var(--detail-color1);
+  
+}
+
+.resume-grid{
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.resume-col{
+  padding: 0 10px;
+  text-align: left;
+}
+
+/* smaller text inside the resume  */
+#resume p,
+#resume dt,
+#resume dd{
+  font-size: 1rem;
+  margin: 0;
+  color: var(--detail-color1);
+  font-family: "Bing";
+}
+
+#resume li{
+font-family: "Jua", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+margin: 0;
+padding: 1.5px 0;
+color: var(--text);
+}
+
+#resume h2{
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 1.75rem;
+  font-family: "Midnight";
+}
+
+#resume h3{
+  font-family: "Bing";
+  font-size: 1.4rem;
+  color: var(--detail-color3);
+  margin: 20px 0 10px;
+}
+
+#resume h4{
+  font-size: 1.1rem;
+  color: var(--detail-color5);
+  margin: 0;
+}
+
+#resume a{
+  color: var(--text);
+}
+
+/* contact details */
+.details{
+  display: grid;
+  grid-template-columns: 7.5em 1fr;
+  margin: 0;
+}
+
+.details dt,
+.details dd{
+  padding: 8px 0;
+}
+
+.related-links{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.related-links a{
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 0.75rem;
+  background: var(--detail-color3);
+  color: var(--background-color);
+}
+
+.related-links a:hover{
+  background: var(--detail-color4);
+}
+
+/* skills */
+#skills ul{
+  padding-left: 1.4em;
+  margin: 0;
+}
+
+#skills li{
+  list-style-type: "★ ";
+  padding: 3px 0;
+}
+
+/* jobs */
+.job{
+  padding: 12px 0;
+}
+
+#resume .job-meta{
+  font-size: 0.85rem;
+  margin: 4px 0 8px;
+}
+
+.description{
+  padding-left: 1.2em;
+  margin: 0;
+}
 
 
+
+@media (min-width: 768px){
+  .resume-grid{
+    grid-template-columns: 1fr 1.4fr;
+    grid-template-rows: minmax(0, 1fr);  /* keeps columns inside the 800px */
+    overflow: hidden;
+  }
+
+}
+
+/*------------------------------------------------------ SCHEMA RESUME ----------------------------------------------------------------------------------*/
 /*------------------------------------ Media Queries----------------------------------------------------------------*/
 
 @media (min-width: 768px) {
@@ -367,36 +523,28 @@ footer h6 a:hover{
   padding-bottom:100px;
 }
 
-#design{
-background-image: url();
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;      
-  background-position: center;
-  width: 100%;
-  height: 535px;
-  padding-bottom:100px;
-}
-
-#cyber{
-background-image: url(.);
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;      
-  background-position: center;
-  width: 100%;
-  height: 535px;
-  padding-bottom:100px;
-}
-
   #showcases {
     grid-template-columns: 1fr 1fr;
     padding:20px;
   }
 }
- /* --------------------------------------------------------------------------------------------------------------------------- */
 
-@media (min-width: 1024px) {
+#sub-banner{
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+      "title title"
+      "photo bio";
+    column-gap: 40px;
+    align-items: center;
+    padding: 60px 40px;
+  }
+
+  #sub-banner p{
+    text-align: left;
+  }
+ /* -------------------------------------------------------------MEDIA QUERIES--------------------------------------------------------------
+
+/* @media (min-width: 1024px) {
 
   #title {
   background-image: url();
@@ -488,8 +636,8 @@ nav ul li a{
 
 }
 
-}
-
+} */
+ 
 
 
 /* --------------------------------------------------------------------------------------------------------------------------- */
@@ -504,7 +652,7 @@ nav ul li a{
   background-size: cover;      
   background-position: center;
   width: 100%;
-  height: 1000px; 
+  height: 650px; 
   padding-bottom:100px;
   }
 
@@ -515,7 +663,7 @@ nav ul li a{
   background-size: cover;      
   background-position: center;
   width: 100%;
-  height: 1000px; 
+  height: 650px; 
   padding-bottom:15px;
 }
 
@@ -527,7 +675,7 @@ background-image: url();
   background-size: cover;      
   background-position: center;
   width: 100%;
-  height: 1000px; 
+  height: 650px; 
   padding-bottom:15px;
 }
 
@@ -538,7 +686,7 @@ background-image: url();
   background-size: cover;      
   background-position: center;
   width: 100%;
-  height: 1000px;  
+  height: 650px;  
   padding-bottom:15px;
 }
 
@@ -551,17 +699,6 @@ background-image: url();
     font-size: 5rem;
   }
 
-
-#sub-banner{
-  background-color:var(--background-color);
-  color: var(--detail-color1);
-  border-top: solid 2px var(--detail-color1);
-  padding: 60px 30px;
-  height:350px;
-  text-align: center;
-  width: 100%;
-  border-bottom: solid 2px var(--detail-color1);
-}
 
   nav ul{
   list-style-type: none;

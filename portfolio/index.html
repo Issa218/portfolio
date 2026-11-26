@@ -5,8 +5,10 @@
         <meta charset="utf-8" />
         <meta name="description" content="Short keyword rich narrative of the site purpose" />
         <meta name="author" content="Hala Issa"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
-
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
@@ -40,9 +42,151 @@
 <section>
   <div id="sub-banner">
   <h2>Hi, I'm Hala!</h2>
-  <p>I am a Web Design and Development student. I love combining my technical and creative skills to create engaging and functional websites.</p>
+  <img src="../portfolio/assets/imgs/headshot.jpg" alt="Headshot" class="headshot">
+  <p>I am a senior majoring in Web Development and Design with a minor in Information Technology and a certification in Cybersecurity Fundamentals. I have a passion for combining creativity and technology to create visually engaging, user-friendly projects.My strongest technical skills include HTML, CSS, and visual design, along with experience working with content management systems such as WordPress and Squarespace. In addition to my web development background, I have spent a year participating in undergraduate cybersecurity research, which has allowed me to further explore my interest in technology, security, and problem-solving.
+  I am an adaptable and motivated learner who enjoys taking on new challenges and expanding my skill set. I enjoy bringing my artistic and technical abilities together to create meaningful and functional designs. </p>
   </div>
   </section>
+    <section id="resume" itemscope itemtype="https://schema.org/Person">
+        <h2>Resume</h2>
+        <!-- Schema Resume -->
+     <meta itemprop="name" content="Hala Issa">
+
+  <div class="resume-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="resume-col">
+
+      <dl class="details">
+        <dt>Date of birth</dt>
+        <dd><time itemprop="birthDate" datetime="2005-11-12">11/12/2005</time></dd>
+
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">United States</dd>
+
+        <dt>Location</dt>
+        <dd itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <span itemprop="name">Arkansas &amp; Tennessee</span>
+        </dd>
+
+        <dt>Telephone</dt>
+        <dd><a itemprop="telephone" href="tel:9018497812">901.849.7812</a></dd>
+
+        <dt>Email</dt>
+        <dd><a itemprop="email" href="mailto:hissa@gmail.com">hissa@gmail.com</a></dd>
+
+        <dt>Address</dt>
+        <dd itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+          <span itemprop="streetAddress">2801 South University</span>,
+          <span itemprop="addressLocality">Little Rock</span>
+          <span itemprop="postalCode">72204</span>,
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+      </dl>
+
+      <ul class="related-links">
+        <li><a itemprop="sameAs" rel="me" href="https://github.com/Issa218?tab=repositories">Github</a></li>
+        <li><a itemprop="sameAs" rel="me" href="https://www.linkedin.com/in/hala-issa-642766329/">LinkedIn</a></li>
+        <li><a itemprop="url" href="../portfolio/assets/imgs/Resume_Issa.pdf" download>PDF resume</a></li>
+      </ul>
+
+      <div id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li itemprop="knowsAbout">HTML and CSS</li>
+          <li itemprop="knowsAbout">CMS: WordPress and Squarespace</li>
+          <li itemprop="knowsAbout">Google Sheets and Microsoft Excel</li>
+          <li itemprop="knowsAbout">Bilingual: Arabic and English</li>
+        </ul>
+      </div>
+
+      <div id="education">
+        <h3>Education</h3>
+        <div class="job" itemprop="alumniOf" itemscope itemtype="https://schema.org/EducationalOrganization">
+          <h4><abbr title="Bachelor of Arts">BA</abbr> Web Design and Development</h4>
+          <p class="job-meta">
+            <span itemprop="name">University of Arkansas at Little Rock</span> ·
+            Little Rock, AR · 2023–2027
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="resume-col" id="experience">
+      <h3>Experience</h3>
+
+      <article class="job">
+        <h4 itemprop="jobTitle">CORE Researcher</h4>
+        <p class="job-meta" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          <a itemprop="url" href="https://ualr.edu/"><span itemprop="name">Cyberspace Operations and Research Education (CORE) Center</span></a>
+          · Little Rock, AR · Jan 2026 – Present
+        </p>
+        <ul class="description">
+          <li>Styled a web application using Angular, contributing to the project's front-end design and functionality</li>
+          <li>Compiled and organized vulnerability exploitation data using Excel, supporting ongoing cybersecurity research efforts</li>
+          <li>Conducted research on cyber attack victims</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h4 itemprop="jobTitle">Camp Counselor</h4>
+        <p class="job-meta" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          <a itemprop="url" href="https://www.micmemphis.org/"><span itemprop="name">Memphis Islamic Center (MIC)</span></a>
+          · Memphis, TN · June 2025 – July 2025
+        </p>
+        <ul class="description">
+          <li>Planned and facilitated engaging group sessions for youth participants</li>
+          <li>Monitored and ensured the safety and well-being of teen campers throughout all camp activities</li>
+          <li>Mentored youth ages 12–15, providing guidance and support</li>
+          <li>Mediated conflicts between campers, parents, and staff, facilitating constructive resolutions to maintain a positive environment</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h4 itemprop="jobTitle">Peer Academic Mentor (PAL)</h4>
+        <p class="job-meta" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          <a itemprop="url" href="https://ualr.edu/"><span itemprop="name">University of Arkansas at Little Rock (UALR)</span></a>
+          · Little Rock, AR · Aug 2024 – Dec 2024
+        </p>
+        <ul class="description">
+          <li>Assisted professor with a range of academic and administrative duties in and outside the classroom</li>
+          <li>Advised and supported students in navigating coursework, offering targeted assistance when needed</li>
+        </ul>
+      </article>
+
+      <h3>Volunteer Experience</h3>
+
+      <article class="job">
+        <h4 itemprop="jobTitle">Marketing Director (Volunteer)</h4>
+        <p class="job-meta" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          <a itemprop="url" href="https://www.mistnashville.com/"><span itemprop="name">Muslim Interscholastic Tournament of Nashville (MIST Nashville)</span></a>
+          · Remote · Oct 2025 – Apr 2026
+        </p>
+        <ul class="description">
+          <li>Conceptualized and published engaging social media content across Instagram</li>
+          <li>Redesigned and maintained the organization's website, modernizing its appearance and ensuring content remained current and accurate</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h4 itemprop="jobTitle">Vice President / Volunteer</h4>
+        <p class="job-meta" itemprop="worksFor" itemscope itemtype="https://schema.org/Organization">
+          <a itemprop="url" href="https://setf.ngo/"><span itemprop="name">Syrian Emergency Task Force (SETF)</span></a>
+          · Little Rock, AR · Sept 2023 – Present
+        </p>
+        <ul class="description">
+          <li>Assisted in coordinating community events and designed promotional materials including posters and advertisements to drive engagement</li>
+          <li>Translated written materials and cards between English and Arabic, ensuring accurate and culturally appropriate communication</li>
+          <li>Provided English–Arabic video translation, expanding content accessibility for diverse audiences</li>
+        </ul>
+      </article>
+    </div>
+
+  </div>
+</section>
+<!-- Schema Resume -->  
+        </section>
 
       <!-- ── Showcases── -->
       <section id="showcases">
@@ -50,36 +194,71 @@
         <p>Here are the tools and software I use and have experience with.</p>
 
        <article class="tools">
-        <a href="">
-            <p class="label">Entry #01</p>
-          <img src="" alt="Github" class="github">
+          <img src="../portfolio/assets/imgs/github.svg" alt="Github" >
             <h3 class="name">Github</h3>
             </a>
         </article>
+
+         <article class="tools">
+          <!-- <img src="../portfolio/assets/imgs/Figma.png" alt="Figma" > -->
+            <h3 class="name">Figma</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="../portfolio/assets/imgs/icons8-adobe-illustrator-100.png" alt="ai" >
+            <h3 class="name">Adobe Illustrator</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="../portfolio/assets/imgs/icons8-adobe-photoshop-100.png" alt="ps" >
+            <h3 class="name">Adobe Photoshop</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="../portfolio/assets/imgs/icons8-adobe-indesign-100.png" alt="indesign" >
+            <h3 class="name">Adobe InDesign</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="" alt="html" >
+            <h3 class="name">HTML</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="" alt="css" >
+            <h3 class="name">CSS</h3>
+            </a>
+        </article>
+
+         <article class="tools">
+          <img src="" alt="sql">
+            <h3 class="name">SQL</h3>
+            </a>
+        </article>
+
+  <article class="tools">
+          <img src="../portfolio/assets/imgs/icons8-powershell-100.png" alt="powershell">
+            <h3 class="name">Windows PowerShell</h3>
+            </a>
+        </article>
+
+   <article class="tools">
+          <img src="../portfolio/assets/imgs/wordpress.svg" alt="wordpress">
+            <h3 class="name">Wordpress</h3>
+            </a>
+        </article>
  
-       
-        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ <article class="tools">
+          <img src="" alt="squarespace">
+            <h3 class="name">Squarespace</h3>
+            </a>
+        </article>
  
       </section>
 
